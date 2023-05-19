@@ -1,0 +1,14 @@
+body {
+    background-color: #B9CFD4;
+    color: #22333B;
+}
+
+.imagem{
+    height: 400px;
+    width: 100%;
+    object-fit: contain;
+}
+
+strong{
+    color: #D00000;
+}
