@@ -1,14 +1,82 @@
-body {
-    background-color: #B9CFD4;
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*, 
+*:after,
+*:before {
+    margin: 0,06rem;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    display:flex;
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    list-style-type: none;
+    background-color: black;
     color: #22333B;
+}
+   
+.homeTitulo{
+    font-size: 33px;
+    font-family: 'Lato', sans-serif;
+}
+
+.homeTexto, 
+a{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    padding: 0 0 5% 0;
 }
 
 .imagem{
-    height: 400px;
-    width: 100%;
-    object-fit: contain;
+    height: 30rem;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
-strong{
-    color: #D00000;
+.destaqueTitulo{
+    color: rgb(80, 19, 19);
+}
+
+.ferramentas{
+    color: rgb(80, 19, 19);
+}
+
+.apresentacao{
+    margin: auto 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #94a8b1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 9px 0px #00000059;
+}
+
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+}
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    margin: auto;
+    color: #e5e5e5;
+    background-color: rgb(80, 19, 19);
+    width: 210px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 10px 0;
 }

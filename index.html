@@ -1,25 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portifólio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!--Conteúdo de cabeça do site (topo)-->
     <header></header>
     <!--Conteúdo principal do projeto-->
-    <main>
-        <h1>Eleve seu negócio digital a outro nível <strong>com um Front-end de qualidade!</strong></h1>
-        <p>Olá! Sou Monique Costa, desenvolvedora Front-end com especialidade em <strong>Angular, HTML, CSS e JavaScript</strong>. Estou em busca de uma primeira experiência que me proporcione novas habilidades, entre em contato comigo nas redes abaixo, seria um prazer falar com você!</p>
-        <img class="imagem" src="FRONT-END.jpg" alt="Foto de exemplo Front-end"> 
+    <main class="apresentacao">
+      <section class="apresentacao__conteudo">
+        <h1 class="homeTitulo">
+          Eleve seu negócio digital a outro nível
+          <strong class="destaqueTitulo">com um Front-end de qualidade!</strong>
+        </h1>
+        <p class="homeTexto">
+          Olá! Sou Monique Costa, desenvolvedora Front-end com especialidade em
+          <strong class="ferramentas">Angular, HTML, CSS e JavaScript</strong>.
+          Estou em busca de uma primeira experiência que me proporcione novas
+          habilidades, entre em contato comigo nas redes abaixo, seria um prazer
+          falar com você!
+        </p>
         <!--Âncoras para outros sites-->
-        <a href="#">Instagram</a> 
-        <a href="#">GitHub</a>
+        <div class="apresentacao__links">
+          <a class="links" href="#">Instagram</a>
+          <a class="links" href="https://github.com/nikkicosta">GitHub</a>
+        </div>
+      </section>
+      <img class="imagem" src="FRONT-END.jpg" alt="Foto de exemplo Front-end" />
     </main>
     <!--Conteúdo de rodapé da página-->
     <footer></footer>
-</body>
+  </body>
 </html>
