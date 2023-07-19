@@ -64,19 +64,42 @@ a{
     flex-direction: column;
 }
 
+.apresentacao__links__subtitulo{
+    font-style: 'Lato', sans-serif;
+    font-size: 15px;
+}
+
 .apresentacao__links{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
+    gap: 5px;
+}
+
+.icons{
+    filter: brightness(0%) opacity(85%);
+    width: 25px;
 }
 
 .links{
     margin: auto;
-    color: #e5e5e5;
-    background-color: rgb(80, 19, 19);
-    width: 210px;
+    color: #22333B;
+    /* background-color: rgb(80, 19, 19); */
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    width: 250px;
     text-align: center;
     font-family: 'Lato', sans-serif;
-    border-radius: 16px;
-    font-size: 24px;
+    border: 2px solid rgb(80, 19, 19);
+    border-radius: 8px;
+    font-size: 20px;
     padding: 10px 0;
+    transition: 0.5s;
+}
+
+.links:hover{
+    background-color: rgb(80, 19, 19);
+    color: white;
 }
