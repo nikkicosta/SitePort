@@ -33,7 +33,7 @@ a{
 }
 
 .imagem{
-    height: 40vw;
+    height: 80vh;
     width: 50%;
     object-fit: cover;
     border-radius: 10px;
