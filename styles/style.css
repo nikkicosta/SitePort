@@ -3,21 +3,20 @@
 *, 
 *:after,
 *:before {
-    margin: 0,06rem;
-    padding: 0;
-    box-sizing: border-box;
     text-decoration: none;
 }
 
 body{
-    display:flex;
     margin: 0;
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
+    width: auto;
     font-size: 62.5%;
     list-style-type: none;
     background-color: black;
     color: #22333B;
+  
 }
    
 .homeTitulo{
@@ -103,3 +102,27 @@ a{
     background-color: rgb(80, 19, 19);
     color: white;
 }
+
+.rodape{
+    margin-top: 30px;
+    width: 100%;
+    position: static;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    background-color: rgb(80, 19, 19);
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+ 
+
+ .cabecalho{
+    padding: 2% 0 5% 15%;
+ }
+
+ .cabecalho__menu__link{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: rgb(80, 19, 19);
+ }
+
